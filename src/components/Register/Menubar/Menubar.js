@@ -30,7 +30,6 @@ class Menubar extends Component {
       this.props.Authmessage(message);
   }
 
-
   render() {
 
     const {email,password} = this.state;
@@ -89,7 +88,9 @@ class Menubar extends Component {
               value={password}
               onChange={this.handleChange}
             />
-            <Form.Button content='Submit' size="tiny"/>
+            <Form.Field>
+              <Button size='tiny'>Submit</Button>
+            </Form.Field>
             </Form.Group>
             <Form.Group>
             <Form.Checkbox label='Keep Logged in' style={{ color: '#FFF', fontSize: '14px'}}/>

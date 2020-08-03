@@ -14,7 +14,7 @@ render(){
 return(
   <div>
   <Menubar></Menubar>
-    <Container style={{ margin: 50}}>
+    <Container style={{ margin: 50,  marginTop: '10em' }}>
       <Grid columns={3}>
       <Grid.Column width={4}>
       <DogCard></DogCard>
